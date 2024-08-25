@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagens/logoalura.png">
+    </header>
+    <main>
+        <section class="entrada">
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+            <div class="alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button class="btn-criptografar" onclick="btncriptografar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="btndescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="saida" cols="30" rows="10" placeholder="Resultado"></textarea>
+            <div class="botao">
+                <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Desenvolvido por Yasmim Luiz</footer>
+    <script src="script.js"></script>
+</body>
+</html>
